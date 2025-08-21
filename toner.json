@@ -15,10 +15,10 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=get_your_own_qs27kXykJULlDxPqVWkB"
+      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=qs27kXykJULlDxPqVWkB"
     }
   },
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_qs27kXykJULlDxPqVWkB",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=qs27kXykJULlDxPqVWkB",
   "layers": [
     {
       "id": "background",
