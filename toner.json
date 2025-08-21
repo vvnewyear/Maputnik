@@ -18,7 +18,7 @@
       "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=qs27kXykJULlDxPqVWkB"
     }
   },
-
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
