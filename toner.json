@@ -9,7 +9,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={key}"
     },
     "natural_earth_shaded_relief": {
       "maxzoom": 6,
@@ -207,7 +207,11 @@
       "source": "openmaptiles",
       "source-layer": "water",
       "filter": ["all", ["!=", "brunnel", "tunnel"]],
-      "paint": {"fill-color": "rgb(158,189,255)"}
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgb(158,189,255)",
+        "fill-translate-anchor": "map"
+      }
     },
     {
       "id": "landcover_sand",
